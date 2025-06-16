@@ -27,7 +27,7 @@ const Portfolio: React.FC = () => {
 
         {/* Description */}
         <p className="text-slate-300 text-lg leading-relaxed mb-6 max-w-lg mx-auto avenir-light">
-          I'm an engineer who is excited by challenging problems
+          I&apos;m an engineer who is excited by challenging problems
           <br />
           and enjoys building products to share with the world.
         </p>
