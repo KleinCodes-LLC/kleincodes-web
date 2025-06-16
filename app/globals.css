@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -23,4 +24,18 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.courier-font {
+  font-family: "Courier New", "Courier Prime", monospace !important;
+}
+
+.avenir-heavy {
+  font-family: "Avenir-Heavy", "Avenir", -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-weight: 900 !important;
+}
+
+.avenir-light {
+  font-family: "Avenir-Light", "Avenir", -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-weight: 300 !important;
 }

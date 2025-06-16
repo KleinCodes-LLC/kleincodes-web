@@ -16,24 +16,24 @@ const Portfolio: React.FC = () => {
         </div>
 
         {/* Name */}
-        <h1 className="text-5xl font-light text-red-400 mb-6 tracking-wide">
+        <h1 className="text-5xl font-light text-red-400 mb-6 tracking-wide courier-font">
           Michael Klein
         </h1>
 
         {/* Company */}
-        <h2 className="text-2xl text-slate-400 mb-8 font-light italic">
+        <h2 className="text-2xl text-slate-400 mb-8 italic avenir-heavy">
           KleinCodes, LLC
         </h2>
 
         {/* Description */}
-        <p className="text-slate-300 text-lg leading-relaxed mb-6 max-w-lg mx-auto">
+        <p className="text-slate-300 text-lg leading-relaxed mb-6 max-w-lg mx-auto avenir-light">
           I'm an engineer who is excited by challenging problems
           <br />
           and enjoys building products to share with the world.
         </p>
 
         {/* Current Role */}
-        <p className="text-slate-400 mb-12">
+        <p className="text-slate-400 mb-12 avenir-light">
           CTO at Smartfrog & Canary
         </p>
 
@@ -48,7 +48,7 @@ const Portfolio: React.FC = () => {
         </div>
 
         {/* Products Section */}
-        <p className="text-slate-400 mb-8">Developer of these products</p>
+        <p className="text-slate-400 mb-8 avenir-light">Developer of these products</p>
 
         {/* Product Icons */}
         <div className="flex justify-center items-center space-x-4 mb-16">
@@ -102,7 +102,7 @@ const Portfolio: React.FC = () => {
 
           {/* LinkedIn */}
           <a href="https://www.linkedin.com/in/kleincodes" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
-            <img src="/images/linkedin.png" alt="LinkedIn Icon" className="w-10 h-9" />
+            <img src="/images/linkedin.png" alt="LinkedIn Icon" className="w-9 h-9" />
           </a>
         </div>
       </div>
