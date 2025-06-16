@@ -51,7 +51,7 @@ const Portfolio: React.FC = () => {
         <p className="text-slate-400 mb-8 avenir-light">Developer of these products</p>
 
         {/* Product Icons */}
-        <div className="flex justify-center items-center space-x-4 mb-16">
+        <div className="flex justify-center items-center space-x-4 mb-10">
           {/* Balooga App */}
           <a href="https://apps.apple.com/us/app/balooga/id1450734153" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
             <img src="/images/balooga.png" alt="Balooga App Icon" className="w-12 h-12 rounded-lg" />
@@ -77,6 +77,9 @@ const Portfolio: React.FC = () => {
             <img src="/images/storychef.png" alt="StoryChef App Icon" className="w-12 h-12 rounded-lg" />
           </a>
         </div>
+
+        {/* Horizontal Rule */}
+        <hr className="border-0 h-0.5 bg-gradient-to-r from-transparent via-slate-400 to-transparent max-w-sm mx-auto mb-10" />
 
         {/* Social Media Links */}
         <div className="flex justify-center space-x-4">
