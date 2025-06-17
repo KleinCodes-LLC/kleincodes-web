@@ -36,12 +36,12 @@ const Portfolio: React.FC = () => {
         </p>
 
         {/* Current Role */}
-        <p className="text-slate-400 mb-12 avenir-light">
+        <p className="text-slate-400 mb-8 avenir-light">
           CTO at Smartfrog & Canary
         </p>
 
         {/* Company Links */}
-        <div className="flex justify-center space-x-4 mb-12">
+        <div className="flex justify-center space-x-4 mb-8">
           <a href="https://www.canary.is" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
             <Image src="/images/canary.png" alt="Canary App Icon" width={48} height={48} className="w-12 h-12 rounded-lg" />
           </a>
